@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro:wght@400;500;700 & display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/*VARIABLES */
+:root{
+    --colorTitulo1: #242E53;
+    --colorTitulo2: #323851;
+    --colorTitulo3: #232C50;
+    --colorTitulo4: #232851;
+    --color1: #242E52;
+    --color2: #FFFFFF;
+    --color3: #000000;
+    --color4: #B3B2B7;
+    --color5: #3F4868;
+    --color6: #B9B9C1;
+    --color7: #A0A0A0;
+    --color8: #8C8C94;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*ESILO GENERAL*/
+html{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
+}
+
+/*SECCION HEADER*/
+.header-nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5rem 16.5rem 10.4rem;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#header-caja-1{
+    object-fit: contain;
+}
+
+.header-nav-1{
+    padding-top: 1rem;
+}
+
+.header-nav-1 a{
+    padding-left: 5rem;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color1);
+}
+
+
+
+
+
+/*SECCION SECTION-1*/
+.section-1{
+    display: flex;
+    padding-right: 14.6rem;
+    padding-left: 16.5rem;
+}
+
+.section-span-1 h1{
+    font-size: 5.8rem;
+    line-height: 6.64rem;
+    color: var(--colorTitulo3);
+}
+
+.section-span-2 p{
+    font-size: 1.656rem;
+    line-height: 2.601;
+    color: var(--color3);
+}
+
+.section-span-3{
+    line-height: 2.601;
+}
+
+/*SECCION SECTION-2*/
+
+.section-2{
+    display: flex;
+    padding: 12.9rem 16.5rem 12.4rem;
+    gap: 12.5rem;
+}
+.seccion2-1-span1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.seccion2-1-span1-1 h3{
+    color: var(--colorTitulo4);
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+.seccion2-1-span1-1 p{
+    color: var(--color3);
+    font-size: 1.6rem;
+    padding-right: 9.6rem;
+}
+
+.seccion2-2-div {
+    display: flex;
+    flex-direction: column;
+}
+.seccion2-2-div h4{
+    color: var(--colorTitulo2);
+    font-size: 1.6rem;
+    
+}
+.seccion2-2-div p{
+    color: var(--color4);
+    font-size: 1.63rem;
+}
+
+.seccion2-2-div1-span{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.3rem 2rem;
+}
+
+.seccion2-2-div1 , .seccion2-2-div2 , .seccion2-2-div3 {
+    display: flex;
+}
+
+
+/*SECCION TESTOMONIOS*/
+.section-3{
+    padding: 13.25rem 7.1rem 18rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5rem;
+}
+
+.section-3 h2{
+    text-align: center;
+    font-size: 3.921rem;
+    color: var(--colorTitulo1);
+}
+
+.section-3-div{
+    display: flex;
+    justify-content: space-around;
+}
+.section-3-div h4{
+    text-align: center;
+    color: var(--color5);
+    font-size: 1.6rem;
+}
+
+.section-3-div-div{
+    width: 44.5rem;
+    height: 21.9rem;
+    padding-top: 10.9rem;
+}
+
+.section-3-div-div-div{
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+}
+
+.section-3-div p{
+    text-align: center;
+    color: var(--color6);
+    font-size: 1.6rem;
+    /*pendiente padding left rin*/
+}
+
+.section-3-div img{
+    height: 7rem;
+    width: 7rem;
+}
+
+.section-3-img{
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-boton{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+/*SECCION GROUP3*/
+.seccion-group3{
+    display: flex;
+    height: 22.4rem;
+    justify-content: center;
+    gap: 53.8rem;
+    padding: 6.4rem 16.5rem;
+    background-color: #F3613C;
+    color: var(--color2);
+    align-items: center;
+}
+
+.seccion-group3 h2{
+    font-size: 4rem;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: #1E1E26;
+    color: var(--color2);
+}
+
+.footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5.6rem 16.4rem 6.6rem 17rem;
+}
+
+.footer-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 6.6rem;
+}
+
+.footer-figure1 a{
+    color: var(--color2);
+    padding: 0;
+    padding-right: 1.3rem;
+    font-size: 2rem;
+}
+
+.imput-update{
+    background-color: #FFFFFF;
+    color: var(--color7);
+    border: none;
+    border-radius: 2.2rem;
+    width: 20.1rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 1.31rem;
+}
+
+.footer-div-nav1 a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.footer-div-nav1-ul li{
+    padding-bottom: 1.2rem;
+}
+
+
+#color-derechos{
+    color: var(--color8);
+    font-size: 1.25rem;
+    padding-bottom: 5.2rem;
+    text-align: right;
+    padding-bottom: 100rem;
+    padding-right: 17rem;
+}
+
+
+/*BOTONES ESPECIFICIDAD*/
+#pequeños{
+    width: 6.3rem;
+}
+
+
+.boton-naranja{
+    background-color: #F3603B;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2.2rem;
+    width: 10rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1.18rem;
+}
+
+.boton-blanco{
+    background-color: #FFFFFF;
+    color: #F3603B;
+    border: none;
+    border-radius: 2.2rem;
+    width: 10rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1.18rem;
+}
+
+@media screen and (max-width: 376px){
+
+html{
+    font-size: 40%;
+}
+
+.eti-a{
+    display: none;
+}
+
+.header-nav-1, .header-nav button{
+    display: none;
+}
+
+.hamburger-menu{
+    display: initial;
+}
+
+.header-nav{
+    padding: 4rem 2rem;
+    
+}
+
+.grafico{
+    order: -1;
+}
+.grafico img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.section-1{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.section-2{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.seccion2-2-div1-span h4{
+    text-align: left;
+}
+
+.seccion2-2-div1-span p{
+    text-align: left;
+}
+.section-3{
+    display: flex;
+    flex-flow: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.section-3-div, .section-3-boton{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.seccion-group3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: none;
+    padding: 4rem 2rem;
+}
+
+
+
+
+
+.boton-blanco{
+    align-items: left;
+}
+
+.footer div{
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+}
+
+.footer-div-final div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
